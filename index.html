@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="navbar">
+    <a class="active" href="javascript:void(0)">Home</a>
+    <a href="javascript:void(0)">Book Types</a>
+    <a href="javascript:void(0)">Search</a>
+  </div>
+
+  <div class="content">
+    <h1>Welcome To The Bunch Of Ebooks!</h1>
+  </div>
+
+  <div class="dropdown">
+    <button onclick="toggle(`drop1`)" class="dropbtn">Science Fictions</button>
+    <div id="drop1" class="dropdown-content">
+      <a href="/Science Fiction/Encounter at the Edge of the Cosmos/index.html">Encounter at the Edge of the Cosmos</a>
+    </div>
+  </div>
+
+  <div class="dropdown">
+    <button onclick="toggle(`myDropdown`)" class="dropbtn">Adventures</button>
+    <div id="myDropdown" class="dropdown-content">
+      <a href="/Adventure/Secrets of the Sands/index.html">Secrets Of The Sands</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
